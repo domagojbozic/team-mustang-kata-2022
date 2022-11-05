@@ -1,0 +1,24 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+LAYOUT_LEFT_RIGHT()
+
+Person(civilian, "Civilian")
+System(heyblue, "HeyBlue")
+Person(police_officer, "Police officer")
+Person(charity, "Charity")
+System(social_media, "Social media")
+System(affiliate_network, "Affiliate network")
+System(analytics, "Analytics")
+Person(business, "Business")
+
+Rel(civilian, heyblue, "Finds and interacts with officers; sees events; redeems points")
+Rel(police_officer, heyblue, "Interacts with civilians; donates points to charities; creates events")
+Rel(charity, heyblue, "Redeems points")
+Rel(civilian, social_media, "Posts interaction")
+Rel(heyblue, affiliate_network, "Fetches links and coupons")
+Rel(heyblue, analytics, "Sends data")
+Rel(affiliate_network, heyblue, "Sends finished transactions")
+Rel(business, heyblue, "Manages store locations and catalog")
+
+@enduml
