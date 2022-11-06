@@ -4,7 +4,7 @@
 LAYOUT_LEFT_RIGHT()
 
 Person(civilian, "Civilian")
-System(heyblue, "HeyBlue")
+System(heyblue, "HeyBlue Platform")
 Person(police_officer, "Police officer")
 Person(charity, "Charity")
 System(social_media, "Social media")
@@ -18,7 +18,7 @@ Rel(charity, heyblue, "Redeems points")
 Rel(civilian, social_media, "Posts interaction")
 Rel(heyblue, affiliate_network, "Fetches links and coupons")
 Rel(heyblue, analytics, "Sends data")
-Rel(affiliate_network, heyblue, "Sends finished transactions")
+Rel(affiliate_network, heyblue, "Notifies about completed transactions")
 Rel(business, heyblue, "Manages store locations and catalog")
 
 @enduml
