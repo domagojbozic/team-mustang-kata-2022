@@ -1,0 +1,29 @@
+@startuml civilian and PO interaction
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+LAYOUT_LEFT_RIGHT()
+
+Person(civilian, "Civilian")
+System(heyblue, "HeyBlue Platform")
+Person(police_officer, "Police officer")
+System(social_media, "Social media")
+
+Rel(civilian, heyblue, "1# Pulls police officer locations")
+
+Rel(civilian, heyblue, "2# Requests specific police officer for interaction")
+Rel(heyblue, police_officer, "2# Gets notified about potential interaction")
+
+Rel(heyblue, civilian, "3# Platform return the exact location of the officer")
+
+Rel(civilian, police_officer, "4# Meet in person")
+
+Rel(heyblue, police_officer, "5# Confirms location for virtual handshake verification")
+Rel(heyblue, civilian, "5# Confirms location for virtual handshake verification")
+
+Rel(heyblue, police_officer, "6# Grants points")
+Rel(heyblue, civilian, "6# Grants points")
+
+Rel(police_officer,social_media, "7# Posts the interaction to social media")
+Rel(civilian,social_media, "7# Posts the interaction to social media")
+
+@enduml
