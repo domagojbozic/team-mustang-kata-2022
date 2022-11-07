@@ -22,4 +22,4 @@ By comparing two architectures we can see that most suitable architecture would 
 
 ## ADR
 
-[ADR Use service based architecture](./ADRs/we-will-use-service-based-architecture.md)
+[ADR Use service based architecture](./ADRs/ADR-002.md)
