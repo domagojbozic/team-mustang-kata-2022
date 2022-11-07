@@ -16,8 +16,24 @@ As the civilian decides with which officer to interact the app will send the exa
 After the successful interaction with the officer, via virtual handshake or scanning of a QR code, civilians will be granted points by the platform.
 The app will produce a reward in a form of a congratulatory message. The details of the interaction can be posted to civilians' social media.
 
-### Business user story
+When the civilian wishes to redeem their points for goods, they can visit storefronts of the participating businesses on the Hey Blue platform. When they
+choose where they want to spent their points, they will receive an affiliate link which will lead them to the store of the chosen business with an applied
+discount.
 
+### Interaction between a civilian and a police officer
+![Interaction diagram](../diagrams/civilian_and_PO_interaction.png)
+
+### Business user story
+Businesses that wish to offer goods which can be redeemed for points, must be registered with an affiliate network through which the purchases will
+be conducted. When registering a business on the Hey Blue! platform, the business must provide an identification on the affiliate network. Along with
+that they can upload a catalog in a static format which can contain offered goods (e.g. pictures and descriptions) and other marketing material. That catalog
+will be shown to users when visiting the storefront of a business.
+
+Businesses can also manage the locations of their physical stores on the Hey Blue platform and civilians will receive notification when they are
+nearby one of the participating stores (if they have notifications enabled).
 
 ### Charity user story
+Charities can upload their storefronts to the Hey Blue platform in the same way that businesses do in a static format. They can contain various materials
+that will describe to the participating police officers what they do and incentivize them to donate points.
 
+Charities can redeem donated points for goods in the same way that civilians can.
