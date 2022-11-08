@@ -35,3 +35,5 @@ We have decided not to implement this requirements in the first iteration of the
 2. [Use redis for storing temporary locations](./ADRs/ADR-002.md)
 3. [Calculate distance on user devices](./ADRs/ADR-003.md)
 4. [Use 3rd party affiliate networks](./ADRs/ADR-004.md)
+5. [Use 3rd party analytics integration
+](./ADRs/ADR-005.md)
