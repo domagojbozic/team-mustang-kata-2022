@@ -5,8 +5,6 @@ rectangle {
 }
 </style>
 
-title Logical Diagram
-
 rectangle Client_Apps{
  agent WEB
  agent "Mobile App"
