@@ -1,6 +1,7 @@
 ## User stories
 
 ### Police officer registration
+When police officers want to use our platform they need to install mobile app and register. When registering they need to input some personal data like name, surname, phone number and official e-mail address. After registering on our platform they will receive confirmation mail if their e-mail has government domain (eg .gov). Upon confirming their e-mail they can use our app from police officers perspective.
 
 ### Police officer user story
 When a police officer wishes to interact they will share their location over the Hey, Blue! mobile application.
