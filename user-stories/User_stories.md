@@ -21,7 +21,7 @@ choose where they want to spent their points, they will receive an affiliate lin
 discount.
 
 ### Interaction between a civilian and a police officer
-![Interaction diagram](../diagrams/civilian_and_PO_interaction.png)
+![Interaction diagram](../diagrams/pictures/civilian_and_PO_interaction.png)
 
 ### Business user story
 Businesses that wish to offer goods which can be redeemed for points, must be registered with an affiliate network through which the purchases will

@@ -17,7 +17,10 @@ https://heyblue.app/
 ## Proposed solution
 
 ### Context diagram
-![Context diagram](./diagrams/context.png)
+![Context diagram](diagrams/pictures/context.png)
+
+### Logical diagram
+![Context diagram](diagrams/pictures/logical_diagram.png)
 
 ### User stories
 

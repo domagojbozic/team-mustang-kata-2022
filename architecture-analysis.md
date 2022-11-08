@@ -14,7 +14,7 @@ Key characteristics are quality attributes that describe our system, there are m
 
 ## Architecture comparison
 
-![Architecture characteristics](./diagrams/architecture-characteristics.png)
+![Architecture characteristics](diagrams/pictures/architecture-characteristics.png)
 
 [original comparison matrix from [DeveloperToArchitect.com](https://www.developertoarchitect.com/downloads/worksheets.html)]
 
