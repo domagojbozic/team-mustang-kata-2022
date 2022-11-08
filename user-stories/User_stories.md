@@ -16,6 +16,7 @@ As the civilian decides with which officer to interact the app will send the exa
 After the successful interaction with the officer, via virtual handshake or scanning of a QR code, civilians will be granted points by the platform.
 The app will produce a reward in a form of a congratulatory message. The details of the interaction can be posted to civilians' social media.
 
+### Civilian user story - redeem points
 When the civilian wishes to redeem their points for goods, they can visit storefronts of the participating businesses on the Hey Blue platform. When they
 choose where they want to spent their points, they will receive an affiliate link which will lead them to the store of the chosen business with an applied
 discount.
