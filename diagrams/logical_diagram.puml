@@ -23,13 +23,13 @@ rectangle Services {
     rectangle {
      agent "User Management"
      agent "Store"
-     database "DB2"
+     database "DB_2"
     }
 
     rectangle {
      agent "Interaction Service"
      agent "Redis"
-     database "DB"
+     database "DB_1"
     }
 }
 
