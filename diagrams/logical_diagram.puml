@@ -1,0 +1,40 @@
+@startuml
+<style>
+rectangle {
+    BackGroundColor #518FF6
+}
+</style>
+
+title Logical Diagram
+
+rectangle Client_Apps{
+ agent WEB
+ agent "Mobile App"
+}
+
+rectangle API_Management_Gateway{
+ agent AMG
+}
+
+rectangle Services {
+    rectangle  {
+    queue Queue
+    agent Analytics
+    }
+
+    rectangle {
+     agent "User Management"
+     agent "Store"
+     database "DB2"
+    }
+
+    rectangle {
+     agent "Interaction Service"
+     agent "Redis"
+     database "DB"
+    }
+}
+
+Client_Apps ---> API_Management_Gateway
+API_Management_Gateway --> Services
+@enduml
