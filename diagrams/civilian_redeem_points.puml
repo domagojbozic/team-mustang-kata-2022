@@ -1,0 +1,31 @@
+@startuml civilian and PO interaction
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+LAYOUT_LEFT_RIGHT()
+
+Person(civilian, "Civilian")
+System(heyblue, "HeyBlue Platform")
+System(affiliate_network, "Affiliate network")
+System(store, "Store")
+
+Rel(civilian, heyblue, "1# Request to redeem points")
+
+Rel(heyblue, heyblue, "1# Validate and reserve points")
+
+Rel(heyblue, affiliate_network, "1# Pull available store links with discounts")
+
+Rel(heyblue, civilian, "1# Return available discounts for user")
+
+Rel(civilian, heyblue, "2# Confirm requested store discount")
+
+Rel(heyblue, store, "2# Redirect user to store page")
+
+Rel(civilian, store, "2# Proceed with checkout with applied discount")
+
+Rel(store, affiliate_network, "2# Notify affiliate network for applied discount")
+
+Rel(affiliate_network, heyblue, "3# Periodically send statistic of used discounts")
+
+Rel(heyblue, heyblue, "4# On successful purchase deduct user points or recover reserved points")
+
+@enduml
