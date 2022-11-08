@@ -29,6 +29,9 @@ We have decided not to implement this requirements in the first iteration of the
 
 [User stories](./user-stories/User_stories.md)
 
+## Data Solution
+[Data Solution](./data-soolution-overview.md)
+
 ### ADRs
 
 1. [Use service based architecture](./ADRs/ADR-001.md)
