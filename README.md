@@ -3,7 +3,7 @@ Welcome to the Github repository for O'Reilly Architectural Kata 2022 where we (
 # Team Mustang
 * Dan Ambrošić
 * Domagoj Božić
-* Tomislav Kralj [(Linkedin)](www.linkedin.com/in/tomislav-kralj)
+* Tomislav Kralj
 * Tomislav Novak
 
 # Hey Blue! Platform
